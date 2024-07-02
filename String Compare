@@ -1,0 +1,60 @@
+String compare
+Write a program to find whether the given two strings
+
+Input Format
+
+Input consists of 2 strings.
+
+Constraints
+
+string
+
+Output Format
+
+If two strings are same, display “Strings are same”, else display “Strings are not same”.
+
+Sample Input 0
+
+java
+java
+Sample Output 0
+
+Strings are same
+Sample Input 1
+
+python
+Java
+Sample Output 1
+
+Strings are not same
+S
+1
+import java.io.*;
+2
+import java.util.*;
+3
+​
+4
+public class Solution {
+5
+​
+6
+    public static void main(String[] args) {
+7
+        Scanner s=new Scanner(System.in);
+8
+        String s1=s.nextLine();
+9
+        String s2=s.nextLine();
+10
+        if(s1.equals(s2))
+11
+            System.out.println("Strings are same");
+12
+        else 
+13
+            System.out.println("Strings are not same");
+14
+    }
+15
+}
